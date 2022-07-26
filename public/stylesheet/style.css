@@ -1,0 +1,112 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/STJEDISE.TTF);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/Starjhol.ttf);
+}
+body{
+    background-image: url(../images/653613.jpeg);
+    background-size: 100vw;
+}
+
+h1{
+    color: rgb(215, 218, 41);
+    font-size: 52px;
+    font-family: mySecondFont;
+}
+
+h2,
+a{
+    font-family: myFirstFont;
+    color: white;
+    font-size: 32px;
+    color: rgb(204, 208, 2);
+}
+
+#title-id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home-page-title{
+    align-self: center;
+    text-align: center;
+}
+
+#dv-image{
+    width: 50px;
+    filter: invert(89%) sepia(20%) saturate(4364%) hue-rotate(10deg) brightness(94%) contrast(98%);
+}
+
+
+#welcome{
+    margin-top: 0px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: starWars;
+    margin-top: 350px;
+}
+
+#planets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#planets-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#people-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#george-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+#george-img{
+    width: 400px;
+    align-self: center;
+}
+
+#george-info{
+    align-self: center;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+#home-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
